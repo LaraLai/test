@@ -19,6 +19,7 @@ public class RequestQueue {
     }
     // 處理佇列中的請求
     //測試
+  //測試1
     static void process(Queue<String> requests) {
         while(requests.peek() != null) {
         	String s = requests.poll();

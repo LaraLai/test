@@ -22,7 +22,7 @@ public class RequestQueue {
         while(requests.peek() != null) {
         	String s = requests.poll();
            System.out.println(s);
-
+           System.out.println(s);
         }
     }
 

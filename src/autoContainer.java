@@ -20,6 +20,7 @@ public class autoContainer {
 		while(it.hasNext()){
 			ArrayList vSubAL = (ArrayList)it.next();
 			System.out.println(vSubAL.get(0));  
+			System.out.println(vSubAL.get(0));  
 			System.out.println(vSubAL.get(1));  
 		}
 		
